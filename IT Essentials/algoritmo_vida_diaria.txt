@@ -1,0 +1,40 @@
+1. abrir los ojos
+2. revisar el celular
+3.levantarme de la cama
+4.caminar al bano
+5. una vez en el bano, si tengo ganas de orinar, orino
+	sino,
+		tomo agua y me lavo los dientes
+6.Camino a la oficina
+7. prendo computadora personal y laboral
+8.Empiezo a trabajar
+9. Si la hora marca entre las 8 am y 9 am, desayuno
+	Sino,
+		sigo trabajando
+10. Si la hora marca entre las 11 am y 12 pm, camino a la cocina
+11. Si hay comida para repetir, almuerzo
+	Sino,
+		Procedo a cocinar el almuerzo
+13. Me como el almuerzo
+14. Mientras hayan platos sucios:
+		lavo los platos con la esponja y jabón
+Fin
+15. Camino otra vez hacia la oficina y me siento en la silla
+16. Me loggeo en la computadora
+17. Mientras hayan sprints restantes y no sean las 4pm:
+		Sigo trabajando
+Fin
+18. Si la hora es > a 4 pm y es entre semana y la computadora laboral esta apagada y no tengo mensajes pendientes en teams, me cambio a ropa deportiva
+	Sino,
+		sigo trabajando
+19. Bajo al garaje
+20. me monto en el carro y manejo al gimnasio
+21. Mientras no haya completado el ultimo ejercicio de la rutina:
+	hago los ejercicios
+fin
+22. me monto al carro y manejo hacia la casa
+23. Camino hacia el bano
+24. me quito la ropa y me bano
+25. Si tengo hambre, cocino la cena
+	Sino,
+		me voy a dormir

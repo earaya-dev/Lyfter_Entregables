@@ -1,0 +1,18 @@
+1.Si tiene telefono movil y la aplicacion de youtube instalada, abrir youtube y buscar el video en la barra buscadora y verlo
+	Sino,
+		Levantarse de la cama o silla donde se encuentre
+2. Si la pc o laptop esta en el mismo cuarto, quedarse en el mismo cuarto
+	Sino, 
+		caminar hacia la oficina
+3. prender el boton de poder de la computadora o laptop
+4. Sentarse en la silla
+5. Si el inicio no es inmediato al sistema operativo, introducir contrasena de perfil 
+	Sino, 	
+		hacer click en iniciar sesion
+6.Abrir el navegador preferido
+7.Si el navegador carga algun buscador por defecto, escribir youtube.com en la barra buscadora del navegador 
+	Sino,
+		typear youtube.com en la barra superior de direcciones del buscador
+8. Si tiene cuenta de youtube.com propia, ingresar usuario y contrasena y buscar el video deseado en la barra de busqueada, una vez logeado en su cuenta
+	Sino,
+		 escribir en la barra buscadora el video deseado directamente

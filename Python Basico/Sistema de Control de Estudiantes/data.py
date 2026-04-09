@@ -29,6 +29,6 @@ def import_data_from_exported_file(path):
         print(f"Successfully imported {len(imported_student_list)} students.")
         return imported_student_list
 
-    except FileNotFoundError as e:
-        print(f"Error [FileNotFoundError]: File not found or does not exist. Details: {e}")
+    except FileNotFoundError:
+        print(f"Error [FileNotFoundError]: File not found or does not exist.")
         return []

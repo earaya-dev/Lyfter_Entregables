@@ -29,8 +29,8 @@ def student_control_menu ():
                 number_of_students = int(input("How many students will you like to add into the system?"))
                 for student_count in range(number_of_students):
                     main_student_collection.append(enter_student_information())
-            except ValueError as e:
-                print(f"Error [ValueError]: Please enter a whole number or the amount of students required. Details: {e}")
+            except ValueError:
+                print(f"Error: Please enter a whole number or the amount of students required.")
         elif user_input == "2":
             current_action = 2
             view_all_student_information(main_student_collection)

@@ -24,12 +24,18 @@ class Bus():
         while len(self.passengers_in_the_bus) < self.max_passengers:
             self.current_bus_count += 1
             self.passengers_in_the_bus.append(Person(self.current_bus_count))
-            
+
+    def unload_passengers(self):
+        while len(self.passengers_in_the_bus) > 0:
+            self.current_bus_count -= 1
+            self.passengers_in_the_bus.pop()
+            print(f"A person has left the bus. Current passengers on bus: {len(self.passengers_in_the_bus)}")
 
 
 my_bus = Bus()
 my_bus.add_passengers()
-print(len(my_bus.passengers_in_the_bus))
+my_bus.unload_passengers()
+
 
 
 

@@ -1,18 +1,17 @@
 def my_decorator(func):
     def is_it_a_number(*args, **kwargs):
-        for elements in args[0]:
+        for elements in args:
             if not isinstance(elements, (int, float)):
                 raise TypeError("Only numbers are allowed")
-                result = func(*args, **kwargs)
-                return result
+        return func(*args, **kwargs)
     return is_it_a_number
 
 
 
 @my_decorator
-def do_sum(numbers):
+def do_sum(*numbers):
     result = sum(numbers)
     print(result)
-    return numbers
+    return result
 
-do_sum([4,5,"hello"])
+do_sum(4,5,"hello")
